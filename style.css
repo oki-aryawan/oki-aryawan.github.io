@@ -271,11 +271,15 @@ nav .fas{
         background-image: url(images/phone-background.png);
     }
     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 110%;
+        font-size: 14px;
+        text-align: center;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 26px;
+    }
+    nav{
+        padding-left: 0%;
     }
     nav .fas{
         display: block;
