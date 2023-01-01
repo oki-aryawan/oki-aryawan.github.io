@@ -100,6 +100,12 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: #fff;
 }
+.medsos{
+    margin-top: -10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
 
 .tab-titles{
     display: flex;

@@ -17,8 +17,8 @@
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#projects">Project</a></li>
+                <!---<li><a href="#portofolio">Achievement</a></li>-->
                 <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -38,7 +38,12 @@
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p style="text-align: justify;">I am an undergraduate student of mechanical engineering and biosystems study program at Bogor Agricultural University. I have an interest in technology, especially data science, deep learning, web development and electronics. Through these technologies, I hope to contribute especially in realizing smart agriculture in Indonesia.</p>
+                <div class="medsos">
+                    <a href="https://github.com/oki-aryawan" class="ikon"><i class="fa-brands fa-github  fa-2xl"></i></a>
+                    <a href="https://www.linkedin.com/in/putu-oki-wiradita-aryawan/" class="ikon"><i class="fa-brands fa-linkedin  fa-2xl"></i></a>
+                    <a href="https://www.instagram.com/oki_aryawan/" class="ikon"><i class="fa-brands fa-instagram  fa-2xl"></i></a>
+                </div>
+                <p style="text-align: justify;">I am an undergraduate student of mechanical and biosystem engineering at Bogor Agricultural University. I have an interest in the world of technologies, especially data science, deep learning, web development and electronics. Through these technologies, I hope to contribute especially in realizing smart agriculture in Indonesia.</p>
 
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('education')">Education</p>
@@ -46,15 +51,15 @@
                 </div>
                 <div class="tab-contents" id="skills">
                     <ul>
-                        <li><span>UI/UX</span><br>Web Design</li>
-                        <li><span>Web Dev</span><br>Development Web</li>
-                        <li><span>Electronic</span><br>Build bomb</li>
+                        <li><span>Artificial Intelligent</span><br>Build deep learning model with YOLOv5, Pytorch, TensorFlow, Keras, etc</li>
+                        <li><span>Electronics</span><br>Working with Jetson Nano, Raspi, Arduino, ESP and other microcontroller board</li>
+                        <li><span>Leadership</span><br>Lead team project</li>
                     </ul>
                 </div>
                 <div class="tab-contents active-tab" id="education">
                     <ul>
-                        <li><span>2018-2021</span><br>Bali Mandara</li>
-                        <li><span>2021-present</span><br>IPB University</li>
+                        <li><span>2018-2021</span><br>Bali Mandara Senior High School</li>
+                        <li><span>2021-present</span><br>Bogor Agricultural University (IPB)</li>
                     </ul>
                 </div>
                 
@@ -63,16 +68,16 @@
     </div>
 </div>
 
-<!-----------------servis-->
+<!-----------------project--
 <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Servies</h1>
+        <h1 class="sub-title">My Projects</h1>
         <div class="services-list">
             <div>
                 <i class="fa-solid fa-code"></i>
                 <h2>Web Design</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <a href="#">Learn more</a>
+                <a href="#"> <i class="fa-brands fa-github"></i></a>
             </div>
             <div>
                 <i class="fa-solid fa-microchip"></i>
@@ -89,37 +94,38 @@
         </div>
     </div>
 
-</div>
+</div>--->
 
-<!-----porto-->
-<div id="portofolio">
+<!-----prestasi-->
+<div id="projects">
     <div class="container">
-        <h1 class="sub-title">My Work</h1>
+        <h1 class="sub-title">My Projects</h1>
         <div class="work-list">
             <div class="work">
                 <img src="images/work-1.png" alt="">
                 <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>Alalsldlasldlalsdlalsldalsdlalsdas</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                    <h3>Agricorn</h3>
+                    <p>A desktop-based application to determine the types of diseases on corn plant leaves. agricorn is developed with PyQt5 and deep learning YOLOv5 in python programming.</p>
+                    <a href="https://github.com/oki-aryawan/agricorn"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src="images/work-2.png" alt="">
                 <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>Alalsldlasldlalsdlalsldalsdlalsdas</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                    <h3>Estrunauts</h3>
+                    <p>Cattle estrus detector based on thermal camera and deep learning YOLOv5. Estrunauts received PKM-KC 2022 funding from Dikti and as finalist of Pekan Ilmiah Mahasiswa Nasional (PIMNAS ke-35)</p>
+                    <a href="https://www.youtube.com/watch?v=pVmjx0uVdV4"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src="images/work-3.png" alt="">
                 <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>Alalsldlasldlalsdlalsldalsdlalsdas</p>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                    <h3>Body Boundaries Mannequin</h3>
+                    <p>A prototype of a body boundaries teaching aid with media in the form of a mannequin equipped with an ultrasonic sensor and audio speaker as output. Collaborative project of IPB, UI, ITB, Undip, and UB in the Tanoto Student Research Award 2022</p>
+                    <a href="https://www.youtube.com/watch?v=8tcEtzqUL7Y"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
+            
         </div>
         <a href="#" class="btn">See More</a>
     </div>
