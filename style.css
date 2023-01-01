@@ -91,6 +91,18 @@ nav ul li a:hover::after{
     border-radius: 15px ;
 }
 
+.medsos a{
+    text-decoration: none;
+    color: #ababab;
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.5s;
+}
+.medsos a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
 .about-col-2{
     flex-basis: 60%;
 }
